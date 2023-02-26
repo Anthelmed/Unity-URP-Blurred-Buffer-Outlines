@@ -61,7 +61,7 @@ namespace Anthelme.BlurredBufferOutlines
 		{
 			var cameraTargetDescriptor = renderingData.cameraData.cameraTargetDescriptor;
 
-			cameraTargetDescriptor.msaaSamples = 1;
+			//cameraTargetDescriptor.msaaSamples = 1;
 			cameraTargetDescriptor.depthBufferBits = 0;
 
 			RenderingUtils.ReAllocateIfNeeded(ref _cameraColorRTHandle, cameraTargetDescriptor,
