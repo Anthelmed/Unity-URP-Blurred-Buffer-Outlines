@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 
 namespace Anthelme.BlurredBufferOutlines
 {
-	internal class OutlinesRendererFeature : ScriptableRendererFeature
+	public class OutlinesRendererFeature : ScriptableRendererFeature
 	{
 		[Serializable]
 		public class OutlinesSettings
