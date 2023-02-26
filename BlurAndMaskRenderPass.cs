@@ -4,7 +4,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace Anthelme.BlurredBufferOutlines
 {
-	internal class BlurAndMaskRenderPass : ScriptableRenderPass
+	public class BlurAndMaskRenderPass : ScriptableRenderPass
 	{
 		private readonly ProfilingSampler _profilingSampler = new("BlurredBufferOutlines.BlurAndMask");
 
