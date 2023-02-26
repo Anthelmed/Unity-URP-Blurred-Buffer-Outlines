@@ -6,3 +6,5 @@
 Unity version: **2022.2 and above**
 
 Package URL: ``` https://github.com/Anthelmed/Unity-URP-Blurred-Buffer-Outlines.git ```
+
+Tips: if the outlines are invisible try changing the camera AA mode or toggling the Stop NaNs option
