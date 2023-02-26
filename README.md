@@ -3,4 +3,4 @@
 
 Unity version: **2022.2 and above**
 
-Package URL: ``` https://github.com/Anthelmed/Unity-URP-Blurred-Buffer-Outlines ```
+Package URL: ``` https://github.com/Anthelmed/Unity-URP-Blurred-Buffer-Outlines.git ```
