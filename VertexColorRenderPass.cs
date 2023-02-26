@@ -5,7 +5,7 @@ using UnityEngine.Rendering.Universal;
 
 namespace Anthelme.BlurredBufferOutlines
 {
-	internal class VertexColorRenderPass : ScriptableRenderPass
+	public class VertexColorRenderPass : ScriptableRenderPass
 	{
 		private readonly ProfilingSampler _profilingSampler = new("BlurredBufferOutlines.VertexColor");
 
