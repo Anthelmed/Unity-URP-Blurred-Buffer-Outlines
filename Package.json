@@ -1,0 +1,16 @@
+﻿{
+	"name": "com.anthelme.blurred-buffer-outlines",
+	"version": "1.0.0",
+	"displayName": "URP Blurred Buffer Outlines",
+	"description": "A render feature to add outlines to your project utilizing vertex colors",
+	"unity": "2022.2",
+	"keywords": [
+		"URP",
+		"Outlines"
+	],
+	"author": {
+		"name": "Anthelme",
+		"email": "anthelme.dumont@gmail.com",
+		"url": "https://anthelme.dev/"
+	}
+}
