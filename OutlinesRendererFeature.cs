@@ -52,10 +52,14 @@ namespace Anthelme.BlurredBufferOutlines
 
 		public override void Create()
 		{
-			vertexColorShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/VertexColorShaderGraph");
-			copyVertexColorShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/CopyVertexColorShaderGraph");
-			blurShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/BlurShaderGraph");
-			maskShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/MaskShaderGraph");
+			if (vertexColorShader == null)
+				vertexColorShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/VertexColorShaderGraph");
+			if (copyVertexColorShader == null)
+				copyVertexColorShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/CopyVertexColorShaderGraph");
+			if (blurShader == null)
+				blurShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/BlurShaderGraph");
+			if (maskShader == null)
+				maskShader = Shader.Find("Hidden/Anthelme/BlurredBufferOutlines/MaskShaderGraph");
 			
 			_vertexColorRenderPass = new VertexColorRenderPass(vertexColorShader);
 			_blurAndMaskRenderPass = new BlurAndMaskRenderPass(copyVertexColorShader, blurShader, maskShader);
